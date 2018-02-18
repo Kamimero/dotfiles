@@ -26,6 +26,14 @@ xmap <Leader>M <Plug>(quickhl-manual-reset)
 xmap <Leader>ga <Plug>(EasyAlign)
 nmap <Leader>ga <Plug>(EasyAlign)
 
+"
+" clang_complete
+"
+
+" 関数定義ジャンプ
+let g:clang_jumpto_declaration_key = "<Leader>j"
+let g:clang_jumpto_declaration_in_preview_key = "<Leader>J"
+
 " =============================================================
 " Function
 

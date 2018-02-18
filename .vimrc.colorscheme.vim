@@ -11,6 +11,9 @@ if has("win32") || has("win64")
         hi Visual  ctermbg = 236
         hi PreProc ctermfg = White
     endif
+elseif has("unix")
+	colorscheme molokai
+	hi Comment guifg   = #00FF00
 endif
 
 function! s:get_syn_id(transparent)

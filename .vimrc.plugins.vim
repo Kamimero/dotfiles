@@ -59,4 +59,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.neosnippet.vim'))
     source ~/dotfiles/plugins/.neosnippet.vim
 endif
-
+if filereadable(expand('~/dotfiles/plugins/.vim-fswitch.vim'))
+	source ~/dotfiles/plugins/.vim-fswitch.vim
+endif

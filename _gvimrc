@@ -1,0 +1,34 @@
+
+" ツールバー非表示
+set guioptions-=T
+
+" メニュー非表示
+" set guioptions-=m
+
+" フォントと文字サイズ
+set guifont=MeiryoKe_Console:h10.5:cSHIFTJIS
+
+" IME の on/off に合わせてカーソルの色を変える
+" if has('multi_byte_ime')
+"     hi Cursor guifg=bg guibg=Green gui=NONE
+"     hi CursorIM guifg=NONE guibg=Red gui=NONE
+" endif
+" Cygwinを使えるようにパスを追加
+
+" 画面透明度(目が疲れるね…)
+" autocmd GUIEnter * set transparency=230
+
+set t_vb=
+set lines=50
+set columns=128
+
+
+hi Visual  ctermbg=236
+
+" スクロールバーの表示無し
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+" カラースキーマの設定
+source ~/dotfiles/.vimrc.colorscheme.vim

@@ -2,26 +2,26 @@
 " dein
 "
 
-" dein©‘Ì‚Ì©“®ƒCƒ“ƒXƒg[ƒ‹
+" deinè‡ªä½“ã®è‡ªå‹•ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.vim') : $XDG_CACHE_HOME
 let s:dein_dir = s:cache_home . '/dein'
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 if !isdirectory(s:dein_repo_dir)
-	call system('git clone https://github.com/Shougo/dein.vim ' . shellescape(s:dein_repo_dir))
+    call system('git clone https://github.com/Shougo/dein.vim ' . shellescape(s:dein_repo_dir))
 endif
 let &runtimepath = s:dein_repo_dir .",". &runtimepath
 
-" ƒvƒ‰ƒOƒCƒ““Ç‚İ‚İ•ƒLƒƒƒbƒVƒ…ì¬
+" ãƒ—ãƒ©ã‚°ã‚¤ãƒ³èª­ã¿è¾¼ã¿ï¼†ã‚­ãƒ£ãƒƒã‚·ãƒ¥ä½œæˆ
 let s:toml_file = '~/dotfiles/.dein.toml'
 if dein#load_state(s:dein_dir)
-	call dein#begin(s:dein_dir, [$MYVIMRC, s:toml_file])
-	call dein#load_toml(s:toml_file)
-	call dein#end()
-	call dein#save_state()
+    call dein#begin(s:dein_dir, [$MYVIMRC, s:toml_file])
+    call dein#load_toml(s:toml_file)
+    call dein#end()
+    call dein#save_state()
 endif
 
-" •s‘«ƒvƒ‰ƒOƒCƒ“‚Ì©“®ƒCƒ“ƒXƒg[ƒ‹
+" ä¸è¶³ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã®è‡ªå‹•ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 if has('vim_starting') && dein#check_install()
-	call dein#install()
+    call dein#install()
 endif
 

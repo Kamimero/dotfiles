@@ -1,70 +1,70 @@
 "
-" Šî–{“I‚ÈÝ’è
+" åŸºæœ¬çš„ãªè¨­å®š
 "
 
-" ƒXƒNƒ[ƒ‹Žž‚Ì—]”’Šm•Û
+" ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«æ™‚ã®ä½™ç™½ç¢ºä¿
 set scrolloff=5
-" ˆês‚É’·‚¢•¶Í‚ð‘‚¢‚Ä‚¢‚Ä‚àŽ©“®Ü‚è•Ô‚µ‚ð‚µ‚È‚¢
+" ä¸€è¡Œã«é•·ã„æ–‡ç« ã‚’æ›¸ã„ã¦ã„ã¦ã‚‚è‡ªå‹•æŠ˜ã‚Šè¿”ã—ã‚’ã—ãªã„
 set textwidth=0
-" ƒoƒbƒNƒAƒbƒvŽæ‚ç‚È‚¢
+" ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—å–ã‚‰ãªã„
 set nobackup
-" ƒXƒƒbƒvƒtƒ@ƒCƒ‹ì‚ç‚È‚¢
+" ã‚¹ãƒ¯ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ä½œã‚‰ãªã„
 set noswapfile
-" ‘¼‚Å‘‚«Š·‚¦‚ç‚ê‚½‚çŽ©“®‚Å“Ç‚Ý’¼‚·
+" ä»–ã§æ›¸ãæ›ãˆã‚‰ã‚ŒãŸã‚‰è‡ªå‹•ã§èª­ã¿ç›´ã™
 set autoread
-" •ÒW’†‚Å‚à‘¼‚Ìƒtƒ@ƒCƒ‹‚ðŠJ‚¯‚é‚æ‚¤‚É‚·‚é
+" ç·¨é›†ä¸­ã§ã‚‚ä»–ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã‚‹ã‚ˆã†ã«ã™ã‚‹
 set hidden
-" ƒoƒbƒNƒXƒy[ƒX‚Å‚È‚ñ‚Å‚àÁ‚¹‚é‚æ‚¤‚É
+" ãƒãƒƒã‚¯ã‚¹ãƒšãƒ¼ã‚¹ã§ãªã‚“ã§ã‚‚æ¶ˆã›ã‚‹ã‚ˆã†ã«
 set backspace=indent,eol,start
-" ƒeƒLƒXƒg®Œ`ƒIƒvƒVƒ‡ƒ“Cƒ}ƒ‹ƒ`ƒoƒCƒgŒn‚ð’Ç‰Á
+" ãƒ†ã‚­ã‚¹ãƒˆæ•´å½¢ã‚ªãƒ—ã‚·ãƒ§ãƒ³ï¼Œãƒžãƒ«ãƒãƒã‚¤ãƒˆç³»ã‚’è¿½åŠ 
 set formatoptions=lmoq
-" ƒr[ƒv‚ð‚È‚ç‚³‚È‚¢
+" ãƒ“ãƒ¼ãƒ—ã‚’ãªã‚‰ã•ãªã„
 set vb t_vb=
-" Explore‚Ì‰ŠúƒfƒBƒŒƒNƒgƒŠ
+" Exploreã®åˆæœŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 set browsedir=buffer
-" ƒJ[ƒ\ƒ‹‚ðs“ªAs––‚ÅŽ~‚Ü‚ç‚È‚¢‚æ‚¤‚É‚·‚é
+" ã‚«ãƒ¼ã‚½ãƒ«ã‚’è¡Œé ­ã€è¡Œæœ«ã§æ­¢ã¾ã‚‰ãªã„ã‚ˆã†ã«ã™ã‚‹
 set whichwrap=b,s,h,l,<,>,[,],~
-" ƒRƒ}ƒ“ƒh‚ðƒXƒe[ƒ^ƒXs‚É•\Ž¦
+" ã‚³ãƒžãƒ³ãƒ‰ã‚’ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è¡Œã«è¡¨ç¤º
 set showcmd
-" Œ»Ý‚Ìƒ‚[ƒh‚ð•\Ž¦
+" ç¾åœ¨ã®ãƒ¢ãƒ¼ãƒ‰ã‚’è¡¨ç¤º
 set showmode
-" viminfoƒtƒ@ƒCƒ‹‚ÌÝ’è
+" viminfoãƒ•ã‚¡ã‚¤ãƒ«ã®è¨­å®š
 set viminfo='50,<1000,s100,\"50
-" ƒ‚[ƒhƒ‰ƒCƒ“‚Í–³Œø
+" ãƒ¢ãƒ¼ãƒ‰ãƒ©ã‚¤ãƒ³ã¯ç„¡åŠ¹
 set modelines=0
-" vim‚ðŽg‚Á‚Ä‚­‚ê‚Ä‚ ‚è‚ª‚Æ‚¤
+" vimã‚’ä½¿ã£ã¦ãã‚Œã¦ã‚ã‚ŠãŒã¨ã†
 set notitle
-" undo file (*.un~)‚ðì‚ç‚È‚¢
+" undo file (*.un~)ã‚’ä½œã‚‰ãªã„
 set noundofile
-" ƒ^ƒuƒTƒCƒY
+" ã‚¿ãƒ–ã‚µã‚¤ã‚º
 set tabstop=4
-" ƒ^ƒu‚ð‘}“ü‚·‚é‚Æ‚«‚Ì•
+" ã‚¿ãƒ–ã‚’æŒ¿å…¥ã™ã‚‹ã¨ãã®å¹…
 set shiftwidth=4
-" s”Ô†‚Ì•\Ž¦
+" è¡Œç•ªå·ã®è¡¨ç¤º
 set number
-" ƒ}ƒEƒX—LŒø
+" ãƒžã‚¦ã‚¹æœ‰åŠ¹
 set mouse=a
-" ƒEƒBƒ“ƒhƒE•‚Å‚ÌÜ‚è•Ô‚µ‚ð‹ÖŽ~
+" ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦å¹…ã§ã®æŠ˜ã‚Šè¿”ã—ã‚’ç¦æ­¢
 set nowrap
-" ƒJ[ƒ\ƒ‹‚ÌˆÊ’u•\Ž¦‚ðs‚¤
+" ã‚«ãƒ¼ã‚½ãƒ«ã®ä½ç½®è¡¨ç¤ºã‚’è¡Œã†
 set ruler
-" CŒ¾ŒêƒXƒ^ƒCƒ‹‚ÌƒCƒ“ƒfƒ“ƒg‚ðŽ©“®‚Å“ü‚ê‚é
+" Cè¨€èªžã‚¹ã‚¿ã‚¤ãƒ«ã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’è‡ªå‹•ã§å…¥ã‚Œã‚‹
 set cindent
-" ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“s”
+" ã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³è¡Œæ•°
 set cmdheight=2
-" ƒXƒe[ƒ^ƒXƒ‰ƒCƒ“s.
+" ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãƒ©ã‚¤ãƒ³è¡Œ.
 set laststatus=2
-" 256F•\Ž¦
+" 256è‰²è¡¨ç¤º
 set t_Co=256
-" ŒŸõ‚ðÜ‚è•Ô‚³‚È‚¢
+" æ¤œç´¢ã‚’æŠ˜ã‚Šè¿”ã•ãªã„
 set nowrapscan
-" ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“ƒ‚[ƒh‚Å<tab>‚Åƒtƒ@ƒCƒ‹–¼•âŠ®‚ð—LŒø‚É‚·‚é
+" ã‚³ãƒžãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ãƒ¢ãƒ¼ãƒ‰ã§<tab>ã§ãƒ•ã‚¡ã‚¤ãƒ«åè£œå®Œã‚’æœ‰åŠ¹ã«ã™ã‚‹
 set wildmenu
-" ŒŸõŒ‹‰Ê‚ðƒnƒCƒ‰ƒCƒg•\Ž¦‚É‚·‚é
+" æ¤œç´¢çµæžœã‚’ãƒã‚¤ãƒ©ã‚¤ãƒˆè¡¨ç¤ºã«ã™ã‚‹
 set hlsearch
-" ƒtƒ@ƒCƒ‹Ží•Ê”»’è‚Æƒvƒ‰ƒOƒCƒ“‚ð—LŒø‰»
+" ãƒ•ã‚¡ã‚¤ãƒ«ç¨®åˆ¥åˆ¤å®šã¨ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’æœ‰åŠ¹åŒ–
 filetype plugin indent on
-" ¬•¶Žš‚Ì‚ÝŒŸõ‚Å‘å•¶Žš¬•¶Žš‚ð–³Ž‹‚·‚éA‘å•¶Žš‚ªŠÜ‚Ü‚ê‚½‚ç‘å•¶Žš¬•¶Žš‚ðƒ`ƒFƒbƒN‚·‚é
+" å°æ–‡å­—ã®ã¿æ¤œç´¢ã§å¤§æ–‡å­—å°æ–‡å­—ã‚’ç„¡è¦–ã™ã‚‹ã€å¤§æ–‡å­—ãŒå«ã¾ã‚ŒãŸã‚‰å¤§æ–‡å­—å°æ–‡å­—ã‚’ãƒã‚§ãƒƒã‚¯ã™ã‚‹
 set ignorecase
 set smartcase
 
@@ -78,7 +78,7 @@ set tags=./tags;
 
 set whichwrap=b,s,h,l,<,>,[,],~
 
-" ƒy[ƒXƒgŽž‚ÉŽ©“®ƒCƒ“ƒfƒ“ƒg‚³‚¹‚È‚¢
+" ãƒšãƒ¼ã‚¹ãƒˆæ™‚ã«è‡ªå‹•ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã•ã›ãªã„
 if &term =~ "xterm"
     let &t_ti .= "\e[?2004h"
     let &t_te .= "\e[?2004l"
@@ -93,10 +93,10 @@ if &term =~ "xterm"
     cnoremap <special> <Esc>[201~ <nop>
 endif
 
-" ƒtƒ@ƒCƒ‹‚Ì‹­§ã‘‚«
+" ãƒ•ã‚¡ã‚¤ãƒ«ã®å¼·åˆ¶ä¸Šæ›¸ã
 cmap w!! w !sudo tee % > /dev/null
 
-" vimproc‚ÌŽ©“®ƒ_ƒEƒ“ƒ[ƒh
+" vimprocã®è‡ªå‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 if has('win32') || has('win64')
 let g:vimproc#download_windows_dll = 1
 endif

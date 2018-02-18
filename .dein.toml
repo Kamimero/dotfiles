@@ -68,6 +68,8 @@ repo = 'vim-scripts/gtags.vim'
 repo = 'Rip-Rip/clang_complete'
 [[plugins]]
 repo = 'vim-syntastic/syntastic'
+[[plugins]]
+repo = 'derekwyatt/vim-fswitch'
 
 #
 # Python言語関連

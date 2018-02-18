@@ -34,6 +34,11 @@ nmap <Leader>ga <Plug>(EasyAlign)
 let g:clang_jumpto_declaration_key = "<Leader>j"
 let g:clang_jumpto_declaration_in_preview_key = "<Leader>J"
 
+" ソースヘッダ切り替え
+nmap <Leader>fh :FSHere<CR>
+nmap <Leader>fl :FSSplitLeft<CR>
+nmap <Leader>fr :FSSplitRight<CR>
+
 " =============================================================
 " Function
 

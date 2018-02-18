@@ -15,14 +15,14 @@ let g:lightline = {
     \ },
     \ }
 
-" ƒpƒXæ“¾
+" ãƒ‘ã‚¹å–å¾—
 function! AbsolutePath()
-	let a = substitute(expand('%:p'), $HOME, '~', '')
-	if a == ""
-		return 'orz=3'
-	elseif strlen(a) > 60
-		return a[strlen(a)-60:]
-	else
-		return a
-	endif
+    let a = substitute(expand('%:p'), $HOME, '~', '')
+    if a == ""
+        return 'orz=3'
+    elseif strlen(a) > 60
+        return a[strlen(a)-60:]
+    else
+        return a
+    endif
 endfunction

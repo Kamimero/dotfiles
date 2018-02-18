@@ -5,5 +5,5 @@
 "
 
 let g:extra_whitespace_ignored_filetypes =
-	\ ['unite', 'mkd', 'quickfix', 'qf', 'map', 'vimshell']
+    \ ['unite', 'mkd', 'quickfix', 'qf', 'map', 'vimshell']
 

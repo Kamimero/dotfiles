@@ -4,13 +4,13 @@
 " https://github.com/scrooloose/nerdtree
 "
 
-" ‰B‚µƒtƒ@ƒCƒ‹‚ð•\Ž¦‚·‚é
+" éš ã—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’è¡¨ç¤ºã™ã‚‹
 let g:NERDTreeShowHidden = 1
-" ƒEƒBƒ“ƒhƒE‚Ì•\Ž¦ˆÊ’u
+" ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã®è¡¨ç¤ºä½ç½®
 let g:NERDTreeWinPos = 'left'
-" ƒEƒBƒ“ƒhƒE•
+" ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦å¹…
 let g:NERDTreeWinSize = 40
-" ƒtƒ@ƒCƒ‹ƒI[ƒvƒ“‚Å•Â‚¶‚é
+" ãƒ•ã‚¡ã‚¤ãƒ«ã‚ªãƒ¼ãƒ—ãƒ³ã§é–‰ã˜ã‚‹
 let g:NERDTreeQuitOnOpen = 1
-" ƒuƒbƒNƒ}[ƒN‚ðƒfƒtƒHƒ‹ƒg‚Å•\Ž¦‚·‚é
+" ãƒ–ãƒƒã‚¯ãƒžãƒ¼ã‚¯ã‚’ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§è¡¨ç¤ºã™ã‚‹
 let g:NERDTreeShowBookmarks = 1

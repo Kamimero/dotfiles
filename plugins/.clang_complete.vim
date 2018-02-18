@@ -1,28 +1,28 @@
 
-" ƒL[ƒoƒCƒ“ƒfƒBƒ“ƒO‚ğ–³Œø‚É‚·‚é
+" ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã‚’ç„¡åŠ¹ã«ã™ã‚‹
 let g:clang_jumpto_declaration_key = ""
 
 if has('unix')
-	" ƒfƒoƒbƒOƒŒƒxƒ‹
-	let g:clang_debug         = 0
-	" ©“®•âŠ®‚Í–³Œø
-	let g:clang_complete_auto = 0
-	" ƒ‰ƒCƒuƒ‰ƒŠg—p•ƒpƒXw’è
-	let g:clang_use_library   = 1
-	let g:clang_library_path  = '/usr/lib/llvm-3.8/lib/libclang.so.1'
-	" ƒGƒ‰[‚ªo‚½‚ç•\¦‚È‚Ì‚©‚ÈH
-	let g:clang_compete_copen = 1
-	let g:clang_hl_errors     = 1
+    " ãƒ‡ãƒãƒƒã‚°ãƒ¬ãƒ™ãƒ«
+    let g:clang_debug         = 0
+    " è‡ªå‹•è£œå®Œã¯ç„¡åŠ¹
+    let g:clang_complete_auto = 0
+    " ãƒ©ã‚¤ãƒ–ãƒ©ãƒªä½¿ç”¨ï¼†ãƒ‘ã‚¹æŒ‡å®š
+    let g:clang_use_library   = 1
+    let g:clang_library_path  = '/usr/lib/llvm-3.8/lib/libclang.so.1'
+    " ã‚¨ãƒ©ãƒ¼ãŒå‡ºãŸã‚‰è¡¨ç¤ºãªã®ã‹ãªï¼Ÿ
+    let g:clang_compete_copen = 1
+    let g:clang_hl_errors     = 1
 
-	let g:clang_user_options  = '-std=c++11'
+    let g:clang_user_options  = '-std=c++11'
 elseif has('win32')
-	" ƒfƒoƒbƒOƒŒƒxƒ‹
-	let g:clang_debug         = 0
-	" ©“®•âŠ®‚Í–³Œø
-	let g:clang_complete_auto = 0
-	" ƒGƒ‰[‚ªo‚½‚ç•\¦‚È‚Ì‚©‚ÈH
-	let g:clang_compete_copen = 0
-	let g:clang_hl_errors     = 1
-	let g:clang_user_options  = '-std=c++11'
+    " ãƒ‡ãƒãƒƒã‚°ãƒ¬ãƒ™ãƒ«
+    let g:clang_debug         = 0
+    " è‡ªå‹•è£œå®Œã¯ç„¡åŠ¹
+    let g:clang_complete_auto = 0
+    " ã‚¨ãƒ©ãƒ¼ãŒå‡ºãŸã‚‰è¡¨ç¤ºãªã®ã‹ãªï¼Ÿ
+    let g:clang_compete_copen = 0
+    let g:clang_hl_errors     = 1
+    let g:clang_user_options  = '-std=c++11'
 endif
 

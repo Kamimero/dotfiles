@@ -4,7 +4,7 @@
 " https://github.com/Shougo/neosnippet.vim
 "
 
-" ƒL[ƒRƒ“ƒtƒBƒO‚Íkeys‚É“ˆê.
+" ã‚­ãƒ¼ã‚³ãƒ³ãƒ•ã‚£ã‚°ã¯keysã«çµ±ä¸€.
 " imap <C-k> <Plug>(neosnippet_expand_or_jump)
 " smap <C-k> <Plug>(neosnippet_expand_or_jump)
 " xmap <C-k> <Plug>(neosnippet_expand_target)

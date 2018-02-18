@@ -6,5 +6,5 @@
 
 let g:jedi#auto_initialization = 1
 
-" 使用するバージョン
+" 菴ｿ逕ｨ縺吶ｋ繝舌�ｼ繧ｸ繝ｧ繝ｳ
 " let g:jedi#force_py_version = 2

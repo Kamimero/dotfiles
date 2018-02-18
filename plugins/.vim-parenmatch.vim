@@ -4,8 +4,8 @@
 " https://github.com/itchyny/vim-parenmatch/blob/master/doc/parenmatch.txt
 "
 
-" Vimの括弧表示を無効にする
+" Vim縺ｮ諡ｬ蠑ｧ陦ｨ遉ｺ繧堤┌蜉ｹ縺ｫ縺吶ｋ
 let g:loaded_matchparen = 1
-" プラグイン有効
+" 繝励Λ繧ｰ繧､繝ｳ譛牙柑
 let g:parenmatch = 1
 

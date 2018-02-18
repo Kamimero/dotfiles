@@ -4,17 +4,17 @@
 " https://github.com/majutsushi/tagbar
 "
 
-" ƒ\[ƒg‚ÌƒL[ƒoƒCƒ“ƒfƒBƒ“ƒO‚ğ–³Œø
+" ã‚½ãƒ¼ãƒˆã®ã‚­ãƒ¼ãƒã‚¤ãƒ³ãƒ‡ã‚£ãƒ³ã‚°ã‚’ç„¡åŠ¹
 let g:tagbar_map_togglesort = ""
 
-" ¶‘¤‚É•\¦‚µ‚È‚¢
+" å·¦å´ã«è¡¨ç¤ºã—ãªã„
 let g:tagbar_left = 0
-" ƒI[ƒgƒtƒH[ƒJƒX‚ğ—LŒø
+" ã‚ªãƒ¼ãƒˆãƒ•ã‚©ãƒ¼ã‚«ã‚¹ã‚’æœ‰åŠ¹
 let g:tagbar_autofocus = 1
-" ©“®‚Åƒ\[ƒg‚µ‚È‚¢
+" è‡ªå‹•ã§ã‚½ãƒ¼ãƒˆã—ãªã„
 let g:tagbar_sort = 0
-" ã’i‚Éƒwƒ‹ƒv‚ğ•\¦‚·‚é
+" ä¸Šæ®µã«ãƒ˜ãƒ«ãƒ—ã‚’è¡¨ç¤ºã™ã‚‹
 let g:tagbar_compact = 0
-" s”Ô†‚ğ•\¦‚µ‚È‚¢
+" è¡Œç•ªå·ã‚’è¡¨ç¤ºã—ãªã„
 let g:tagbar_show_linenumbers = 0
 

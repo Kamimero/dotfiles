@@ -10,19 +10,19 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 0
 
-" ƒVƒ“ƒ^ƒbƒNƒXƒ`ƒFƒbƒNƒEƒBƒ“ƒhƒE‚Ì©“®ŠJ•Â
+" ã‚·ãƒ³ã‚¿ãƒƒã‚¯ã‚¹ãƒã‚§ãƒƒã‚¯ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã®è‡ªå‹•é–‹é–‰
 let g:syntastic_auto_loc_list = 0
-" ƒI[ƒvƒ“‚Éƒ`ƒFƒbƒN‚·‚éE‚µ‚È‚¢
+" ã‚ªãƒ¼ãƒ—ãƒ³æ™‚ã«ãƒã‚§ãƒƒã‚¯ã™ã‚‹ãƒ»ã—ãªã„
 let g:syntastic_check_on_open = 0
-" ƒtƒ@ƒCƒ‹‘‚«‚İ‚Éƒ`ƒFƒbƒN‚·‚éE‚µ‚È‚¢
+" ãƒ•ã‚¡ã‚¤ãƒ«æ›¸ãè¾¼ã¿æ™‚ã«ãƒã‚§ãƒƒã‚¯ã™ã‚‹ãƒ»ã—ãªã„
 let g:syntastic_check_on_wq = 0
 
 "
-" CŒ¾Œê—p
+" Cè¨€èªç”¨
 "
 
 let g:syntastic_c_compiler = 'clang'
 " let g:syntastic_c_compiler_options = ""
 
-" ƒRƒ“ƒtƒBƒO‚Íclang_complete‹¤’Ê
+" ã‚³ãƒ³ãƒ•ã‚£ã‚°ã¯clang_completeå…±é€š
 let g:syntastic_c_config_file='.clang_complete'

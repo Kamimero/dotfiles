@@ -4,15 +4,15 @@
 " https://github.com/terryma/vim-multiple-cursors
 "
 
-" マルチカーソル時にNoeCompleteを無効にする
+" 繝槭Ν繝√き繝ｼ繧ｽ繝ｫ譎ゅ↓NoeComplete繧堤┌蜉ｹ縺ｫ縺吶ｋ
 function! Multiple_cursors_before()
-	if exists(':NeoCompleteLock') == 2
-		exe 'NeoCompleteLock'
-	endif
+    if exists(':NeoCompleteLock') == 2
+        exe 'NeoCompleteLock'
+    endif
 endfunction
 function! Multiple_cursors_after()
-	if exists(':NeoCompleteUnlock') == 2
-		exe 'NeoCompleteUnlock'
-	endif
+    if exists(':NeoCompleteUnlock') == 2
+        exe 'NeoCompleteUnlock'
+    endif
 endfunction
 

@@ -4,5 +4,5 @@
 " https://github.com/Shougo/vimfiler.vim
 "
 
-" –³‹‚·‚éƒtƒ@ƒCƒ‹í•Ê‚Í–³‚µ
+" ç„¡è¦–ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ç¨®åˆ¥ã¯ç„¡ã—
 let g:vimfiler_ignore_pattern = []

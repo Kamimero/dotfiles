@@ -5,88 +5,88 @@
 "
 
 " Link: http://algo13.net/clang/clang-format-style-oputions.html
-" AccessModifierOffset                           ? ƒAƒNƒZƒXCüq(public: protected: private:)‚ÌƒCƒ“ƒfƒ“ƒg
-" AlignConsecutiveAssignments                    ? true ‚Ìê‡A˜A‘±‚·‚és‚Ì‘ã“ü‰‰Zq‚ğ‘µ‚¦‚é
-" AlignConsecutiveDeclarations                   ? true ‚Ìê‡A˜A‘±‚·‚és‚ÌéŒ¾‚ğ‘µ‚¦‚é
-" AlignEscapedNewlinesLeft                       ? ƒGƒXƒP[ƒv‚³‚ê‚½‰üs‚ÌˆÊ’u
-" AlignOperands                                  ? true ‚Ìê‡A…•½•ûŒü‚É“ñ€‰‰Zq‚ÆO€‰‰Zq‚ğ‘µ‚¦‚Ü‚·B
-" AlignTrailingComments                          ? ƒRƒƒ“ƒg‚ğ––”ö‚É‘µ‚¦‚é
-" AllowShortBlocksOnASingleLine                  ? ’Pˆê‚Ìs‚ÉŠÈ’P‚ÈƒuƒŒ[ƒX•¶‚ğûkB
-" AllowShortCaseLabelsOnASingleLine              ? true ‚Ìê‡A’Z‚¢ƒP[ƒXƒ‰ƒxƒ‹‚ğ’Pˆês‚É’u‚­B
-" AllowShortFunctionsOnASingleLine               ? int f() { return 0; } ‚ğ’Pˆês‚É’u‚­‚©B
-" AllowShortIfStatementsOnASingleLine            ? true ‚Ìê‡A’Pˆês‚Ì if (a) return; ‚ğƒL[ƒv
-" AllowShortLoopsOnASingleLine                   ? true ‚Ìê‡A’Pˆês‚Ì while (true) continue; ‚ğƒL[ƒv
-" AlwaysBreakAfterReturnType                     ? ŠÖ”éŒ¾‚Ì–ß‚è’l‚ÌŒ^‚ÌƒXƒ^ƒCƒ‹B ‚æ‚è³Šm‚É‚ÍuŠÖ”’è‹`‚ÌŒ^ˆÈ‰º‚Ì¯•Êq‚Ì‘O‚É‰üsvB
-" AlwaysBreakBeforeMultilineStrings              ? •¡”s‚ÌƒŠƒeƒ‰ƒ‹•¶š—ñ‚Ì‘O‚Å‰üs‚·‚é
-" AlwaysBreakTemplateDeclarations                ? true ‚Ìê‡Aƒeƒ“ƒvƒŒ[ƒgéŒ¾‚Ì template<...> ‚ÌŒã‚É‰üs
-" BinPackArguments                               ? false ‚Ìê‡AŠÖ”ŒÄ‚Ño‚µ‚Ìˆø”‚ÍA‘S‚Ä“¯‚¶s‚©A1s‚²‚Æ‚É‚È‚éB
-" BinPackParameters                              ? ŠÖ”ŒÄ‚Ño‚µ‚âŠÖ”’è‹`‚Ìƒpƒ‰ƒ[ƒ^[‚ğAˆês‚²‚Æ‚É‚·‚é‚©
-" BreakBeforeBraces                              ? ”gŠ‡ŒÊ{}‚ÌƒtƒH[ƒ}ƒbƒgƒXƒ^ƒCƒ‹
-" BraceWrapping                                  ? ”gŠ‡ŒÊ{}‚ÌƒtƒH[ƒ}ƒbƒgƒXƒ^ƒCƒ‹(ŒÂX‚Ìİ’è‚ÍƒlƒXƒg‚µ‚½İ’èƒtƒ‰ƒO‚ğQÆ)
-"	AfterClass                                   ? class ‚ÌŒã
-"	AfterControlStatement                        ? ƒRƒ“ƒgƒ[ƒ‹ƒXƒe[ƒgƒƒ“ƒg(if/for/while/switch/..)‚ÌŒã
-"	AfterEnum                                    ? enum ‚ÌŒã
-"	AfterFunction                                ? ŠÖ”‚ÌŒã
-"	AfterNamespace                               ? namespace ‚ÌŒã
-"	AfterObjCDeclaration                         ? ObjC éŒ¾(@autoreleasepool, interfaces, ..)‚ÌŒã
-"	AfterStruct                                  ? truct ‚ÌŒã
-"	AfterUnion                                   ? union ‚ÌŒã
-"	BeforeCatch                                  ? catch ‚Ì‘O
-"	BeforeElse                                   ? else ‚Ì‘O
-"	IndentBraces                                 ? ŠÖ”ŒÄ‚Ño‚µ‚âŠÖ”’è‹`‚Ìƒpƒ‰ƒ[ƒ^[‚ğAˆês‚²‚Æ‚É‚·‚é‚©
-" BreakBeforeBinaryOperators                     ? “ñ€‰‰Zq‚ÌÜ‚è•Ô‚µ•û–@
-" BreakConstructorInitializersBeforeComma        ? ƒRƒ“ƒXƒgƒ‰ƒNƒ^‰Šú‰»q‚ÌƒRƒ“ƒ}‚Ì‘O‚Å‰üs‚µAƒRƒƒ“‚ÅƒJƒ“ƒ}‚ğ‘µ‚¦‚é‚©
-" BreakStringLiterals                            ? ƒtƒH[ƒ}ƒbƒg‚É•¶š—ñƒŠƒeƒ‰ƒ‹‚ğ‰üs‚Å’²®B
-" ColumnLimit                                    ? Å‘å—ñ(s•)”
-" ConstructorInitializerAllOnOneLineOrOnePerLine ? ƒRƒ“ƒXƒgƒ‰ƒNƒ^[‚Ì‰Šú‰»q‚ªs‚Éû‚Ü‚ç‚È‚¢ê‡‚ÍA‰üs‚·‚é
-" ConstructorInitializerIndentWidth              ? ƒRƒ“ƒXƒgƒ‰ƒNƒ^‰Šú‰»qƒŠƒXƒg‚ÌƒCƒ“ƒfƒ“ƒg‚Ég—p‚·‚é•¶š”
-" ContinuationIndentWidth                        ? Œp‘±s‚Ì‚½‚ß‚ÌƒCƒ“ƒfƒ“ƒg•
-" DerivePointerAlignment                         ? true ‚Ìê‡A * ‚â & ‚ÌˆÊ’u‚ğ©“®”»’èB
+" AccessModifierOffset                           ? ã‚¢ã‚¯ã‚»ã‚¹ä¿®é£¾å­(public: protected: private:)ã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆ
+" AlignConsecutiveAssignments                    ? true ã®å ´åˆã€é€£ç¶šã™ã‚‹è¡Œã®ä»£å…¥æ¼”ç®—å­ã‚’æƒãˆã‚‹
+" AlignConsecutiveDeclarations                   ? true ã®å ´åˆã€é€£ç¶šã™ã‚‹è¡Œã®å®£è¨€ã‚’æƒãˆã‚‹
+" AlignEscapedNewlinesLeft                       ? ã‚¨ã‚¹ã‚±ãƒ¼ãƒ—ã•ã‚ŒãŸæ”¹è¡Œã®ä½ç½®
+" AlignOperands                                  ? true ã®å ´åˆã€æ°´å¹³æ–¹å‘ã«äºŒé …æ¼”ç®—å­ã¨ä¸‰é …æ¼”ç®—å­ã‚’æƒãˆã¾ã™ã€‚
+" AlignTrailingComments                          ? ã‚³ãƒ¡ãƒ³ãƒˆã‚’æœ«å°¾ã«æƒãˆã‚‹
+" AllowShortBlocksOnASingleLine                  ? å˜ä¸€ã®è¡Œã«ç°¡å˜ãªãƒ–ãƒ¬ãƒ¼ã‚¹æ–‡ã‚’åç¸®ã€‚
+" AllowShortCaseLabelsOnASingleLine              ? true ã®å ´åˆã€çŸ­ã„ã‚±ãƒ¼ã‚¹ãƒ©ãƒ™ãƒ«ã‚’å˜ä¸€è¡Œã«ç½®ãã€‚
+" AllowShortFunctionsOnASingleLine               ? int f() { return 0; } ã‚’å˜ä¸€è¡Œã«ç½®ãã‹ã€‚
+" AllowShortIfStatementsOnASingleLine            ? true ã®å ´åˆã€å˜ä¸€è¡Œã® if (a) return; ã‚’ã‚­ãƒ¼ãƒ—
+" AllowShortLoopsOnASingleLine                   ? true ã®å ´åˆã€å˜ä¸€è¡Œã® while (true) continue; ã‚’ã‚­ãƒ¼ãƒ—
+" AlwaysBreakAfterReturnType                     ? é–¢æ•°å®£è¨€ã®æˆ»ã‚Šå€¤ã®å‹ã®ã‚¹ã‚¿ã‚¤ãƒ«ã€‚ ã‚ˆã‚Šæ­£ç¢ºã«ã¯ã€Œé–¢æ•°å®šç¾©ã®å‹ä»¥ä¸‹ã®è­˜åˆ¥å­ã®å‰ã«æ”¹è¡Œã€ã€‚
+" AlwaysBreakBeforeMultilineStrings              ? è¤‡æ•°è¡Œã®ãƒªãƒ†ãƒ©ãƒ«æ–‡å­—åˆ—ã®å‰ã§æ”¹è¡Œã™ã‚‹
+" AlwaysBreakTemplateDeclarations                ? true ã®å ´åˆã€ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå®£è¨€ã® template<...> ã®å¾Œã«æ”¹è¡Œ
+" BinPackArguments                               ? false ã®å ´åˆã€é–¢æ•°å‘¼ã³å‡ºã—ã®å¼•æ•°ã¯ã€å…¨ã¦åŒã˜è¡Œã‹ã€1è¡Œã”ã¨ã«ãªã‚‹ã€‚
+" BinPackParameters                              ? é–¢æ•°å‘¼ã³å‡ºã—ã‚„é–¢æ•°å®šç¾©ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãƒ¼ã‚’ã€ä¸€è¡Œã”ã¨ã«ã™ã‚‹ã‹
+" BreakBeforeBraces                              ? æ³¢æ‹¬å¼§{}ã®ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã‚¹ã‚¿ã‚¤ãƒ«
+" BraceWrapping                                  ? æ³¢æ‹¬å¼§{}ã®ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã‚¹ã‚¿ã‚¤ãƒ«(å€‹ã€…ã®è¨­å®šã¯ãƒã‚¹ãƒˆã—ãŸè¨­å®šãƒ•ãƒ©ã‚°ã‚’å‚ç…§)
+"   AfterClass                                   ? class ã®å¾Œ
+"   AfterControlStatement                        ? ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚¹ãƒ†ãƒ¼ãƒˆãƒ¡ãƒ³ãƒˆ(if/for/while/switch/..)ã®å¾Œ
+"   AfterEnum                                    ? enum ã®å¾Œ
+"   AfterFunction                                ? é–¢æ•°ã®å¾Œ
+"   AfterNamespace                               ? namespace ã®å¾Œ
+"   AfterObjCDeclaration                         ? ObjC å®£è¨€(@autoreleasepool, interfaces, ..)ã®å¾Œ
+"   AfterStruct                                  ? truct ã®å¾Œ
+"   AfterUnion                                   ? union ã®å¾Œ
+"   BeforeCatch                                  ? catch ã®å‰
+"   BeforeElse                                   ? else ã®å‰
+"   IndentBraces                                 ? é–¢æ•°å‘¼ã³å‡ºã—ã‚„é–¢æ•°å®šç¾©ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãƒ¼ã‚’ã€ä¸€è¡Œã”ã¨ã«ã™ã‚‹ã‹
+" BreakBeforeBinaryOperators                     ? äºŒé …æ¼”ç®—å­ã®æŠ˜ã‚Šè¿”ã—æ–¹æ³•
+" BreakConstructorInitializersBeforeComma        ? ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿åˆæœŸåŒ–å­ã®ã‚³ãƒ³ãƒã®å‰ã§æ”¹è¡Œã—ã€ã‚³ãƒ­ãƒ³ã§ã‚«ãƒ³ãƒã‚’æƒãˆã‚‹ã‹
+" BreakStringLiterals                            ? ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆæ™‚ã«æ–‡å­—åˆ—ãƒªãƒ†ãƒ©ãƒ«ã‚’æ”¹è¡Œã§èª¿æ•´ã€‚
+" ColumnLimit                                    ? æœ€å¤§åˆ—(è¡Œå¹…)æ•°
+" ConstructorInitializerAllOnOneLineOrOnePerLine ? ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ãƒ¼ã®åˆæœŸåŒ–å­ãŒè¡Œã«åã¾ã‚‰ãªã„å ´åˆã¯ã€æ”¹è¡Œã™ã‚‹
+" ConstructorInitializerIndentWidth              ? ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿åˆæœŸåŒ–å­ãƒªã‚¹ãƒˆã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã«ä½¿ç”¨ã™ã‚‹æ–‡å­—æ•°
+" ContinuationIndentWidth                        ? ç¶™ç¶šè¡Œã®ãŸã‚ã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆå¹…
+" DerivePointerAlignment                         ? true ã®å ´åˆã€ * ã‚„ & ã®ä½ç½®ã‚’è‡ªå‹•åˆ¤å®šã€‚
 
 let g:clang_format#code_style = "llvm"
-" ƒtƒH[ƒ}ƒbƒgİ’è
+" ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆè¨­å®š
 let g:clang_format#style_options = {
-	\ "AccessModifierOffset"                            : -4,
-	\ "AlignConsecutiveAssignments"                     : "true",
-	\ "AlignConsecutiveDeclarations"                    : "true",
-	\ "AlignEscapedNewlinesLeft"                        : "true",
-	\ "AlignOperands"                                   : "true",
-	\ "AlignTrailingComments"                           : "true",
-	\ "AllowShortBlocksOnASingleLine"                   : "false",
-	\ "AllowShortCaseLabelsOnASingleLine "              : "false",
-	\ "AllowShortFunctionsOnASingleLine"                : "Inline",
-	\ "AllowShortIfStatementsOnASingleLine"             : "false",
-	\ "AllowShortLoopsOnASingleLine"                    : "false",
-	\ "AlwaysBreakAfterReturnType"                      : "None",
-	\ "BreakBeforeBraces"                               : "Custom",
-	\ "BraceWrapping"                                   : {
-	\	"AfterClass"                                    : "true",
-	\	"AfterControlStatement"                         : "false",
-	\	"AfterEnum"                                     : "true",
-	\	"AfterFunction"                                 : "true",
-	\	"AfterNamespace "                               : "false",
-	\	"AfterObjCDeclaration "                         : "false",
-	\	"AfterStruct "                                  : "false",
-	\	"AfterUnion "                                   : "false",
-	\	"BeforeCatch "                                  : "false",
-	\	"BeforeElse "                                   : "true",
-	\	"IndentBraces "                                 : "false",
-	\ },
-	\ "BreakBeforeBinaryOperators"                      : "None",
-	\ "BreakConstructorInitializersBeforeComma "        : "false",
-	\ "ColumnLimit"                                     : "128",
-	\ "ConstructorInitializerAllOnOneLineOrOnePerLine " : "false",
-	\ "ConstructorInitializerIndentWidth"               : "4",
-	\ "ContinuationIndentWidth"                         : "4",
-	\ "AlwaysBreakTemplateDeclarations"                 : "true",
-	\ "Standard"                                        : "C++11",
-	\ "SpacesInSquareBrackets"                          : "false",
-	\ "SpaceAfterCStyleCast"                            : "true",
-	\ "IndentCaseLabels"                                : "true",
-	\ "UseTab"                                          : "Never",
-	\ "DerivePointerAlignment"                          : "true",
-	\ "PointerAlignment"                                : "Right",
-	\}
+    \ "AccessModifierOffset"                            : -4,
+    \ "AlignConsecutiveAssignments"                     : "true",
+    \ "AlignConsecutiveDeclarations"                    : "true",
+    \ "AlignEscapedNewlinesLeft"                        : "true",
+    \ "AlignOperands"                                   : "true",
+    \ "AlignTrailingComments"                           : "true",
+    \ "AllowShortBlocksOnASingleLine"                   : "false",
+    \ "AllowShortCaseLabelsOnASingleLine "              : "false",
+    \ "AllowShortFunctionsOnASingleLine"                : "Inline",
+    \ "AllowShortIfStatementsOnASingleLine"             : "false",
+    \ "AllowShortLoopsOnASingleLine"                    : "false",
+    \ "AlwaysBreakAfterReturnType"                      : "None",
+    \ "BreakBeforeBraces"                               : "Custom",
+    \ "BraceWrapping"                                   : {
+    \   "AfterClass"                                    : "true",
+    \   "AfterControlStatement"                         : "false",
+    \   "AfterEnum"                                     : "true",
+    \   "AfterFunction"                                 : "true",
+    \   "AfterNamespace "                               : "false",
+    \   "AfterObjCDeclaration "                         : "false",
+    \   "AfterStruct "                                  : "false",
+    \   "AfterUnion "                                   : "false",
+    \   "BeforeCatch "                                  : "false",
+    \   "BeforeElse "                                   : "true",
+    \   "IndentBraces "                                 : "false",
+    \ },
+    \ "BreakBeforeBinaryOperators"                      : "None",
+    \ "BreakConstructorInitializersBeforeComma "        : "false",
+    \ "ColumnLimit"                                     : "128",
+    \ "ConstructorInitializerAllOnOneLineOrOnePerLine " : "false",
+    \ "ConstructorInitializerIndentWidth"               : "4",
+    \ "ContinuationIndentWidth"                         : "4",
+    \ "AlwaysBreakTemplateDeclarations"                 : "true",
+    \ "Standard"                                        : "C++11",
+    \ "SpacesInSquareBrackets"                          : "false",
+    \ "SpaceAfterCStyleCast"                            : "true",
+    \ "IndentCaseLabels"                                : "true",
+    \ "UseTab"                                          : "Never",
+    \ "DerivePointerAlignment"                          : "true",
+    \ "PointerAlignment"                                : "Right",
+    \}
 
 autocmd FileType c,cpp,objc map <buffer><Leader>f <Plug>(operator-clang-format)
 

@@ -1,18 +1,18 @@
 
 let g:ctrlp_root_markers = ['.ctrlproot']
 
-" ƒfƒtƒHƒ‹ƒg³‹K•\Œ»
+" ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆæ­£è¦è¡¨ç¾
 let g:ctrlp_regexp = 1
 
-" Å‘åŒŸõ”‚Í–³ŒÀ
+" æœ€å¤§æ¤œç´¢æ•°ã¯ç„¡é™
 let g:ctrlp_max_files = 0
 
-" ƒqƒbƒg”‚Í‘½‚ß‚É•ÏX
+" ãƒ’ãƒƒãƒˆæ•°ã¯å¤šã‚ã«å¤‰æ›´
 let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:20,results:20'
 
-" –³‹‚·‚éƒtƒ@ƒCƒ‹í•Ê
+" ç„¡è¦–ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ç¨®åˆ¥
 let g:ctrlp_custom_ignore = {
-	\ 'dir':  '\v[\/]\.(git|hg|svn)$',
-	\ 'file': '\v\.(exe|so|dll|ro|d)$',
-	\ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
-	\ }
+    \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+    \ 'file': '\v\.(exe|so|dll|ro|d)$',
+    \ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+    \ }

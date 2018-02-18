@@ -13,7 +13,10 @@ if has("win32") || has("win64")
     endif
 elseif has("unix")
 	colorscheme molokai
-	hi Comment guifg   = #00FF00
+	augroup vim-colorscheme
+		autocmd!
+		autocmd ColorScheme * hi Comment ctermfg=46 guifg=#00FF00
+	augroup END
 endif
 
 function! s:get_syn_id(transparent)

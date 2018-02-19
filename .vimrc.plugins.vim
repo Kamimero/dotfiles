@@ -62,3 +62,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.vim-fswitch.vim'))
 	source ~/dotfiles/plugins/.vim-fswitch.vim
 endif
+if filereadable(expand('~/dotfiles/plugins/.caw.vim'))
+	source ~/dotfiles/plugins/.caw.vim
+endif

@@ -70,6 +70,8 @@ repo = 'Rip-Rip/clang_complete'
 repo = 'vim-syntastic/syntastic'
 [[plugins]]
 repo = 'derekwyatt/vim-fswitch'
+[[plugins]]
+repo = 'tacahiroy/ctrlp-funky'
 
 #
 # Python言語関連

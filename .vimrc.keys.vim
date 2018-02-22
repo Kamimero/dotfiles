@@ -42,6 +42,9 @@ nmap <Leader>fh :FSHere<CR>
 nmap <Leader>fl :FSSplitLeft<CR>
 nmap <Leader>fr :FSSplitRight<CR>
 
+" Doxygen
+nmap <Leader>d :Dox<CR>
+
 " =============================================================
 " Function
 

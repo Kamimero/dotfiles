@@ -65,3 +65,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.caw.vim'))
 	source ~/dotfiles/plugins/.caw.vim
 endif
+if filereadable(expand('~/dotfiles/plugins/.doxygen-toolkit.vim'))
+	source ~/dotfiles/plugins/.doxygen-toolkit.vim
+endif

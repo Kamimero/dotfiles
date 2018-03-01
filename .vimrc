@@ -15,6 +15,10 @@ augroup END
 if filereadable(expand('~/dotfiles/.vimrc.dein.vim'))
     source ~/dotfiles/.vimrc.dein.vim
 endif
+" 環境変数
+if filereadable(expand('~/dotfiles/.vimrc.env.vim'))
+	source ~/dotfiles/.vimrc.env.vim
+endif
 " 基本的な設定
 if filereadable(expand('~/dotfiles/.vimrc.basic.vim'))
     source ~/dotfiles/.vimrc.basic.vim
@@ -22,10 +26,6 @@ endif
 " Vimプラグインの設定
 if filereadable(expand('~/dotfiles/.vimrc.plugins.vim'))
     source ~/dotfiles/.vimrc.plugins.vim
-endif
-" 環境変数
-if filereadable(expand('~/dotfiles/.vimrc.env'))
-	source ~/dotfiles/.vimrc.env
 endif
 " キー関連設定
 if filereadable(expand('~/dotfiles/.vimrc.keys.vim'))

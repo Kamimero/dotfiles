@@ -58,7 +58,8 @@ map <F4> :TagbarToggle<CR>
 " ESC
 
 inoremap <silent> jj <ESC>
-nnoremap <silent> <ESC><ESC> :nohlsearch<CR> :QuickhlManualReset<CR>
+nnoremap <silent> <ESC><ESC> :nohlsearch<CR>
+nnoremap <silent> <ESC><ESC><ESC> :QuickhlManualReset<CR>
 
 " =============================================================
 " Ctrl

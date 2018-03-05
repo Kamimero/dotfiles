@@ -33,6 +33,8 @@ nmap <Leader>ga <Plug>(EasyAlign)
 " 関数定義ジャンプ
 let g:clang_jumpto_declaration_key = "<Leader>j"
 let g:clang_jumpto_declaration_in_preview_key = "<Leader>J"
+let g:jedi#goto_command = "<Leader>j"
+let g:jedi#goto_assignments_command = "<Leader>g"
 
 " 関数検索
 nmap <Leader>p :CtrlPFunky<CR>

@@ -29,13 +29,17 @@ repo = 'Shougo/unite-outline'
 [[plugins]]
 repo = 'tsukkee/unite-tag'
 
+#
 # 入力補完関連
+#
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
 [[plugins]]
 repo = 'Shougo/neosnippet'
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+[[plugins]]
+repo = 'honza/vim-snippets'
 [[plugins]]
 repo = 'mattn/sonictemplate-vim'
 

@@ -22,3 +22,5 @@ if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
 
+" スニペットファイル参照先
+let g:neosnippet#snippets_directory = '~/.vim/dein/.cache/.vimrc/.dein/snippets,~/.vim/add-snippets'

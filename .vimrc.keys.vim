@@ -16,6 +16,8 @@ nnoremap <Leader>ur :Unite register<CR>
 " for caw
 nmap <Leader>/ <Plug>(caw:hatpos:toggle)
 vmap <Leader>/ <Plug>(caw:hatpos:toggle)
+nmap <Leader>\ <Plug>(caw:wrap:toggle)
+vmap <Leader>\ <Plug>(caw:wrap:toggle)
 
 " for QuickHighlight
 nmap <Leader>m <Plug>(quickhl-manual-this)

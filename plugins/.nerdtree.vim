@@ -9,7 +9,7 @@ let g:NERDTreeShowHidden = 1
 " ウィンドウの表示位置
 let g:NERDTreeWinPos = 'left'
 " ウィンドウ幅
-let g:NERDTreeWinSize = 40
+let g:NERDTreeWinSize = 30
 " ファイルオープンで閉じる
 let g:NERDTreeQuitOnOpen = 0
 " ブックマークをデフォルトで表示する

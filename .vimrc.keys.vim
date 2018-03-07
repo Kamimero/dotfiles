@@ -16,18 +16,18 @@ map <F6> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
 "
 " Leaderキー
 "
-" d		Doxygenヘッダ挿入
-" ga 	アライン調整
-" p		関数検索
-" ub	Unite Buffer
-" uf 	Unite File
-" uo 	Unite Outline
-" ur	Unite Register
+" d  : Doxygenヘッダ挿入
+" ga : アライン調整
+" p  : 関数検索
+" ub : Unite Buffer
+" uf : Unite File
+" uo : Unite Outline
+" ur : Unite Register
 "
-" m		ハイライト
-" M		ハイライトキャンセル
-" /		コメントアウト //
-" \		コメントアウト /**/
+" m  : ハイライト
+" M  : ハイライトキャンセル
+" /  : コメントアウト //
+" \  : コメントアウト /**/
 "
 
 let mapleader = 't'
@@ -75,18 +75,13 @@ inoremap <silent> jj <ESC>
 nnoremap <silent> <ESC><ESC> :nohlsearch<CR>
 nnoremap <silent> <ESC><ESC><ESC> :QuickhlManualReset<CR>
 
-" =============================================================
-" Ctrl
+"
+" Ctrlキー
+"
+" o 	オムニ補完
+"
 
-" for neocomplete
-imap <C-Space> <C-x><C-o>
-
-" for Gtags
-nnoremap <C-g> :Gtags
-nnoremap <C-h> :Gtags -f %<CR>
-nnoremap <C-j> :GtagsCursor<CR>
-nnoremap <C-Down> :cn<CR>
-nnoremap <C-Up> :cp<CR>
+imap <C-o> <C-x><C-o>
 
 " for neo-snippet.
 imap <C-k> <Plug>(neosnippet_expand_or_jump)
@@ -127,15 +122,6 @@ nnoremap sw :w<CR>
 if has('unix')
 vnoremap sy :w !cat > /dev/clipboard<CR><CR>
 endif
-
-
-" =============================================================
-" Space
-
-" for unite
-nnoremap <Space>uo :Unite outline<CR>
-nnoremap <Space>ub :Unite buffer<CR>
-nnoremap <Space>uf :Unite file<CR>
 
 " =============================================================
 " Other

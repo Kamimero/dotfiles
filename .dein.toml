@@ -67,8 +67,6 @@ repo = 'Shougo/neoinclude.vim'
 [[plugins]]
 repo = 'rhysd/vim-clang-format'
 [[plugins]]
-repo = 'vim-scripts/gtags.vim'
-[[plugins]]
 repo = 'Rip-Rip/clang_complete'
 [[plugins]]
 repo = 'vim-syntastic/syntastic'

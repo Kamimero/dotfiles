@@ -2,31 +2,53 @@
 " キー操作関連
 "
 
-" =============================================================
-" Leader
+"
+" Fキー
+"
+
+map <F2> :VimFiler<CR>
+map <F3> :NERDTreeToggle<CR>
+map <F4> :TagbarToggle<CR>
+
+map <F5> g<C-]>
+map <F6> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
+
+"
+" Leaderキー
+"
+" d		Doxygenヘッダ挿入
+" ga 	アライン調整
+" p		関数検索
+" ub	Unite Buffer
+" uf 	Unite File
+" uo 	Unite Outline
+" ur	Unite Register
+"
+" m		ハイライト
+" M		ハイライトキャンセル
+" /		コメントアウト //
+" \		コメントアウト /**/
+"
 
 let mapleader = 't'
 
- " for unite
-nnoremap <Leader>ub :Unite buffer<CR>
-nnoremap <Leader>uf :Unite file<CR>
-nnoremap <Leader>uo :Unite outline<CR>
-nnoremap <Leader>ur :Unite register<CR>
-
-" for caw
-nmap <Leader>/ <Plug>(caw:hatpos:toggle)
-vmap <Leader>/ <Plug>(caw:hatpos:toggle)
-nmap <Leader>\ <Plug>(caw:wrap:toggle)
-vmap <Leader>\ <Plug>(caw:wrap:toggle)
-
-" for QuickHighlight
-nmap <Leader>m <Plug>(quickhl-manual-this)
-xmap <Leader>m <Plug>(quickhl-manual-this)
-nmap <Leader>M <Plug>(quickhl-manual-reset)
-xmap <Leader>M <Plug>(quickhl-manual-reset)
-
+nmap <Leader>d  :Dox<CR>
 xmap <Leader>ga <Plug>(EasyAlign)
 nmap <Leader>ga <Plug>(EasyAlign)
+nmap <Leader>p  :CtrlPFunky<CR>
+nmap <Leader>ub :Unite buffer<CR>
+nmap <Leader>uf :Unite file<CR>
+nmap <Leader>uo :Unite outline<CR>
+nmap <Leader>ur :Unite register<CR>
+nmap <Leader>/  <Plug>(caw:hatpos:toggle)
+vmap <Leader>/  <Plug>(caw:hatpos:toggle)
+nmap <Leader>\  <Plug>(caw:wrap:toggle)
+vmap <Leader>\  <Plug>(caw:wrap:toggle)
+nmap <Leader>m  <Plug>(quickhl-manual-this)
+xmap <Leader>m  <Plug>(quickhl-manual-this)
+nmap <Leader>M  <Plug>(quickhl-manual-reset)
+xmap <Leader>M  <Plug>(quickhl-manual-reset)
+
 
 "
 " clang_complete
@@ -39,22 +61,12 @@ let g:jedi#goto_command = "<Leader>j"
 let g:jedi#goto_assignments_command = "<Leader>g"
 
 " 関数検索
-nmap <Leader>p :CtrlPFunky<CR>
 
 " ソースヘッダ切り替え
 nmap <Leader>fh :FSHere<CR>
 nmap <Leader>fl :FSSplitLeft<CR>
 nmap <Leader>fr :FSSplitRight<CR>
 
-" Doxygen
-nmap <Leader>d :Dox<CR>
-
-" =============================================================
-" Function
-
-map <F2> :VimFiler<CR>
-map <F3> :NERDTreeToggle<CR>
-map <F4> :TagbarToggle<CR>
 
 " =============================================================
 " ESC

@@ -1,5 +1,5 @@
 
-let g:ctrlp_root_markers = ['.ctrlproot']
+let g:ctrlp_root_markers = ['.ctrlp']
 
 " デフォルト正規表現
 let g:ctrlp_regexp = 1

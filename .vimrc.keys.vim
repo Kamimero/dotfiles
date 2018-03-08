@@ -78,10 +78,16 @@ nnoremap <silent> <ESC><ESC><ESC> :QuickhlManualReset<CR>
 "
 " Ctrlキー
 "
-" o 	オムニ補完
+" h		左移動
+" j		下移動
+" k		上移動
+" l		右移動
 "
 
-imap <C-o> <C-x><C-o>
+imap <C-h> <Left>
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-l> <Right>
 
 " for neo-snippet.
 imap <C-k> <Plug>(neosnippet_expand_or_jump)
@@ -90,7 +96,6 @@ xmap <C-k> <Plug>(neosnippet_expand_target)
 
 " for tags
 nnoremap <C-]> g<C-]>
-
 
 " =============================================================
 " S

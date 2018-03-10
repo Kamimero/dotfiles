@@ -68,3 +68,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.doxygen-toolkit.vim'))
 	source ~/dotfiles/plugins/.doxygen-toolkit.vim
 endif
+if filereadable(expand('~/dotfiles/plugins/.vim-quickrun.vim'))
+	source ~/dotfiles/plugins/.vim-quickrun.vim
+endif

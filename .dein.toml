@@ -57,6 +57,10 @@ repo = 'itchyny/landscape.vim'
 [[plugins]]
 repo = 'jnurmine/Zenburn'
 
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
 #
 # C/CPP言語関連
 #

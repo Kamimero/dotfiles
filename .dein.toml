@@ -142,7 +142,8 @@ repo = 'xolox/vim-misc'
 
 [[plugins]]
 repo = 'kana/vim-operator-user'
-
+[[plugins]]
+repo = 'tyru/open-browser.vim'
 
 # Doxygen
 [[plugins]]

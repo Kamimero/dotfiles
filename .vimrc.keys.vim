@@ -32,23 +32,24 @@ map <F6> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
 
 let mapleader = 't'
 
-nmap <Leader>d   :Dox<CR>
-xmap <Leader>ga  <Plug>(EasyAlign)
-nmap <Leader>ga  <Plug>(EasyAlign)
-nmap <Leader>p   :CtrlPFunky<CR>
-nmap <Leader>ub  :Unite buffer<CR>
-nmap <Leader>uf  :Unite file<CR>
-nmap <Leader>uo  :Unite outline<CR>
-nmap <Leader>ur  :Unite register<CR>
-nmap <Leader>/   <Plug>(caw:hatpos:toggle)
-vmap <Leader>/   <Plug>(caw:hatpos:toggle)
-nmap <Leader>\   <Plug>(caw:wrap:toggle)
-vmap <Leader>\   <Plug>(caw:wrap:toggle)
-nmap <Leader>m   <Plug>(quickhl-manual-this)
-xmap <Leader>m   <Plug>(quickhl-manual-this)
-nmap <Leader>M   <Plug>(quickhl-manual-reset)
-xmap <Leader>M   <Plug>(quickhl-manual-reset)
-nmap <Leader>run :QuickRun<CR>
+nmap <Leader>d    :Dox<CR>
+xmap <Leader>ga   <Plug>(EasyAlign)
+nmap <Leader>ga   <Plug>(EasyAlign)
+nmap <Leader>p    :CtrlPFunky<CR>
+nmap <Leader>ub   :Unite buffer<CR>
+nmap <Leader>uf   :Unite file<CR>
+nmap <Leader>uo   :Unite outline<CR>
+nmap <Leader>ur   :Unite register<CR>
+nmap <Leader>/    <Plug>(caw:hatpos:toggle)
+vmap <Leader>/    <Plug>(caw:hatpos:toggle)
+nmap <Leader>\    <Plug>(caw:wrap:toggle)
+vmap <Leader>\    <Plug>(caw:wrap:toggle)
+nmap <Leader>m    <Plug>(quickhl-manual-this)
+xmap <Leader>m    <Plug>(quickhl-manual-this)
+nmap <Leader>M    <Plug>(quickhl-manual-reset)
+xmap <Leader>M    <Plug>(quickhl-manual-reset)
+nmap <Leader>run  :QuickRun<CR>
+nmap <Leader>open <Plug>(openbrowser-smart-search)
 
 "
 " clang_complete
@@ -88,6 +89,8 @@ imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>
 imap <C-l> <Right>
+
+imap <C-u> <C-x><C-o>
 
 " for neo-snippet.
 imap <C-k> <Plug>(neosnippet_expand_or_jump)

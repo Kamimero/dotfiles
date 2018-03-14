@@ -71,3 +71,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.vim-quickrun.vim'))
 	source ~/dotfiles/plugins/.vim-quickrun.vim
 endif
+if filereadable(expand('~/dotfiles/plugins/.open-browser.vim'))
+	source ~/dotfiles/plugins/.open-browser.vim
+endif

@@ -67,6 +67,8 @@ filetype plugin indent on
 " 小文字のみ検索で大文字小文字を無視する、大文字が含まれたら大文字小文字をチェックする
 set ignorecase
 set smartcase
+" ESCのタイムアウト時間
+set ttimeoutlen=50
 
 set clipboard=unnamedplus,unnamed
 

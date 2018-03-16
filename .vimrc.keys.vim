@@ -6,12 +6,12 @@
 " Fキー
 "
 
-map <F2> :VimFiler<CR>
-map <F3> :NERDTreeToggle<CR>
-map <F4> :TagbarToggle<CR>
-
-map <F5> g<C-]>
-map <F6> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
+map  <F2> :VimFiler<CR>
+map  <F3> :NERDTreeToggle<CR>
+map  <F4> :TagbarToggle<CR>
+map  <F5> g<C-]>
+map  <F6> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
+imap <F8> <C-x><C-o>
 
 "
 " Leaderキー
@@ -89,8 +89,6 @@ imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>
 imap <C-l> <Right>
-
-imap <C-u> <C-x><C-o>
 
 " for neo-snippet.
 imap <C-k> <Plug>(neosnippet_expand_or_jump)

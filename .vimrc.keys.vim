@@ -50,6 +50,7 @@ nmap <Leader>M    <Plug>(quickhl-manual-reset)
 xmap <Leader>M    <Plug>(quickhl-manual-reset)
 nmap <Leader>run  :QuickRun<CR>
 nmap <Leader>open <Plug>(openbrowser-smart-search)
+nmap <Leader>sh   :VimShell<CR>
 
 "
 " clang_complete

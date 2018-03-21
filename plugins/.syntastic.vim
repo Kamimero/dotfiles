@@ -25,3 +25,8 @@ let g:syntastic_check_on_wq = 1
 let g:syntastic_c_compiler = 'clang'
 " コンフィグはclang_complete共通
 let g:syntastic_c_config_file='.clang_complete'
+
+"
+" Bash
+"
+let g:syntastic_sh_shellcheck_args = "-e SC2068,SC2086"

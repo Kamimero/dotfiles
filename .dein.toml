@@ -92,6 +92,12 @@ repo = 'nvie/vim-flake8'
 [[plugins]]
 repo = 'andviro/flake8-vim'
 
+#
+# ShellScript
+#
+[[plugins]]
+repo = 'z0mbix/vim-shfmt'
+
 # MarkDown -------------------------------------
 
 [[plugins]]

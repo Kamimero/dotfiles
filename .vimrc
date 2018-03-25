@@ -27,6 +27,10 @@ endif
 if filereadable(expand('~/dotfiles/.vimrc.plugins.vim'))
     source ~/dotfiles/.vimrc.plugins.vim
 endif
+" Vimプラグイン以外のコマンド
+if filereadable(expand('~/dotfiles/.vimrc.commands.vim'))
+	source ~/dotfiles/.vimrc.commands.vim
+endif
 " キー関連設定
 if filereadable(expand('~/dotfiles/.vimrc.keys.vim'))
     source ~/dotfiles/.vimrc.keys.vim

@@ -85,7 +85,7 @@ nnoremap <silent> <ESC><ESC><ESC> :QuickhlManualReset<CR>
 " k		上移動
 " l		右移動
 "
-
+imap <C-f> <C-x><C-o>
 imap <C-h> <Left>
 imap <C-j> <Down>
 imap <C-k> <Up>

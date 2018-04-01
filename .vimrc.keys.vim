@@ -97,6 +97,8 @@ smap <C-k> <Plug>(neosnippet_expand_or_jump)
 xmap <C-k> <Plug>(neosnippet_expand_target)
 
 " for tags
+nmap <C-j> g<C-]>
+nmap <C-J> :<C-u>tab stj <C-R>=expand('<cword>')<CR><CR>
 nnoremap <C-]> g<C-]>
 
 " =============================================================

@@ -80,6 +80,8 @@ repo = 'vim-syntastic/syntastic'
 repo = 'derekwyatt/vim-fswitch'
 [[plugins]]
 repo = 'tacahiroy/ctrlp-funky'
+[[plugins]]
+repo = 'tyru/current-func-info.vim'
 
 #
 # Python言語関連

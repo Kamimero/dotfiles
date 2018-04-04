@@ -20,8 +20,7 @@ set guifont=MeiryoKe_Console:h10.5:cSHIFTJIS
 
 set t_vb=
 set lines=50
-set columns=128
-
+set columns=160
 
 hi Visual  ctermbg=236
 

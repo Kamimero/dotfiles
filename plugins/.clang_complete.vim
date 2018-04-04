@@ -29,5 +29,6 @@ if has('unix')
     " ライブラリ使用＆パス指定
     let g:clang_use_library   = 1
 elseif has('win32') || has('win64')
+	let g:clang_use_path = "C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++"
 endif
 

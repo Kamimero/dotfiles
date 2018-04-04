@@ -1,6 +1,6 @@
 
 " アンドゥバッファのクリア
-command -nargs=0 ClearUndo call <sid>ClearUndo()
+command! -nargs=0 ClearUndo call <sid>ClearUndo()
 function! s:ClearUndo()
 	let old_undolevels = &undolevels
 	set undolevels=-1

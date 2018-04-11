@@ -100,6 +100,8 @@ xmap <C-k> <Plug>(neosnippet_expand_target)
 nmap <C-j> g<C-]>
 nnoremap <C-]> g<C-]>
 
+autocmd FileType c imap <buffer> <C-z> ->
+
 " =============================================================
 " S
 

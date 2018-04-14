@@ -74,3 +74,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.open-browser.vim'))
 	source ~/dotfiles/plugins/.open-browser.vim
 endif
+if filereadable(expand('~/dotfiles/plugins/.lexima.vim'))
+	source ~/dotfiles/plugins/.lexima.vim
+endif

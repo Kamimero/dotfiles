@@ -123,8 +123,9 @@ repo = 'fuenor/qfixgrep'
 
 # その他 ---------------------------------------
 
-[[plugins]]
-repo = 'vim-scripts/Align'
+# 使用頻度とLeaderキーのマッピングの関係上無効化
+# [[plugins]]
+# repo = 'vim-scripts/Align'
 
 [[plugins]]
 repo = 'junegunn/vim-easy-align'
@@ -160,8 +161,13 @@ repo = 'xolox/vim-misc'
 repo = 'kana/vim-operator-user'
 [[plugins]]
 repo = 'tyru/open-browser.vim'
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+[[plugins]]
+repo = 'tpope/vim-surround'
 
 # Doxygen
 [[plugins]]
 repo = 'vim-scripts/DoxygenToolkit.vim'
+
 

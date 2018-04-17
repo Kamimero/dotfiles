@@ -165,6 +165,8 @@ repo = 'tyru/open-browser.vim'
 repo = 'easymotion/vim-easymotion'
 [[plugins]]
 repo = 'tpope/vim-surround'
+[[plugins]]
+repo = 'sukima/xmledit'
 
 # Doxygen
 [[plugins]]

@@ -33,15 +33,15 @@ nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
 nnoremap sh <C-w>h
-nnoremap ss :sp<CR>
-nnoremap sv :vs<CR>
-nnoremap st :tabnew<CR>
-nnoremap sn :tabnext<CR>
-nnoremap sp :tabprevious<CR>
-nnoremap so :only<CR>
-nnoremap sb :Unite buffer<CR>
-nnoremap se :WinResizerStartResize<CR>
-nnoremap sw :w<CR>
+nnoremap <silent> ss :sp<CR>
+nnoremap <silent> sv :vs<CR>
+nnoremap <silent> st :tabnew<CR>
+nnoremap <silent> sn :tabnext<CR>
+nnoremap <silent> sp :tabprevious<CR>
+nnoremap <silent> so :only<CR>
+nnoremap <silent> sb :Unite buffer<CR>
+nnoremap <silent> se :WinResizerStartResize<CR>
+nnoremap <silent> sw :w<CR>
 if has('unix')
 vnoremap sy :w !cat > /dev/clipboard<CR><CR>
 endif
@@ -51,14 +51,10 @@ endif
 " let mapleader = 't'
 
 " nmap <Leader>d    :Dox<CR>
-nmap <Leader>p    :CtrlPFunky<CR>
-nmap <Leader>ub   :<C-u>Unite buffer<CR>
-nmap <Leader>uf   :Unite file<CR>
-nmap <Leader>uo   :Unite outline<CR>
-nmap <Leader>ur   :Unite register<CR>
-nmap <Leader>run  :QuickRun<CR>
-nmap <Leader>open <Plug>(openbrowser-smart-search)
-nmap <Leader>sh   :VimShell<CR>
+nmap <silent> <Leader>p    :CtrlPFunky<CR>
+nmap <silent> <Leader>ub   :<C-u>Unite buffer<CR>
+nmap <silent> <Leader>run  :QuickRun<CR>
+nmap <silent> <Leader>sh   :VimShell<CR>
 
 
 " for neo-snippet.

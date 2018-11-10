@@ -1,8 +1,8 @@
+"----------------------------------------------------------------------------
 "
 " lightline
 "
-" https://github.com/itchyny/lightline.vim
-"
+" echo "load lightline configration file."
 
 let g:lightline = {
 \	'colorscheme': 'powerline',

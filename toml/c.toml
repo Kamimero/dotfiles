@@ -1,0 +1,20 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+
+[[plugins]]
+repo = "Rip-Rip/clang_complete"
+hook_add = """
+	source ~/dotfiles/toml/conf/clang_complete.vim
+"""
+
+[[plugins]]
+repo = 'kana/vim-operator-user'
+
+[[plugins]]
+repo = "rhysd/vim-clang-format"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-clang-format.vim
+"""
+

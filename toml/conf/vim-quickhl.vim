@@ -1,10 +1,15 @@
+"----------------------------------------------------------------------------
 "
-" quickhl
+" vim-quickhl
 "
-" https://github.com/t9md/vim-quickhl
-"
+" see: https://github.com/t9md/vim-quickhl
+" see: http://pachicoma.hateblo.jp/entry/2017/03/08/Neovim%E3%81%A7%E8%A4%87%E6%95%B0%E3%81%AE%E5%8D%98%E8%AA%9E%E3%82%92%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88%28vim-quickhl_vim%29_%40Windows10
+" echo "load vim-quickhl configration file."
 
-" カラーテーブル
+nmap <Leader>m	<Plug>(quickhl-manual-this)
+xmap <Leader>m	<Plug>(quickhl-manual-this)
+nmap <Leader>M	:<C-u>QuickhlManualReset<CR>
+
 let g:quickhl_manual_colors =
 \ [
 \   'gui=bold ctermfg=16  ctermbg=153 guifg=#ffffff guibg=#0a7383',
@@ -21,5 +26,3 @@ let g:quickhl_manual_colors =
 \   'gui=bold ctermfg=7   ctermbg=50  guibg=#1060a0 guifg=#ffffff',
 \   'gui=bold ctermfg=7   ctermbg=56  guibg=#a0b0c0 guifg=black'
 \ ]
-" カーソルに追従するハイライト色
-" let g:quickhl_cword_hl_command = "QuickhlCword gui=underline,bold cterm=underline term=underline"

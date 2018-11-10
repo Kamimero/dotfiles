@@ -1,8 +1,8 @@
+"----------------------------------------------------------------------------
 "
 " nerdtree
 "
-" https://github.com/scrooloose/nerdtree
-"
+" echo "load nerdtree configration file."
 
 " 隠しファイルを表示する
 let g:NERDTreeShowHidden = 1

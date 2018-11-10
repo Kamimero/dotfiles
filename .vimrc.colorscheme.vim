@@ -2,17 +2,22 @@
 " カラースキーマ関連
 "
 
+
 if has("win32") || has("win64")
     if has("gui_running")
-        colorscheme molokai
-        hi Comment guifg   = #00FF00
+		if dein#check_install(["molokai"]) == 0
+			colorscheme molokai
+        	hi Comment guifg   = #00FF00
+		endif
     else
         hi Comment ctermfg = lightgreen
         hi Visual  ctermbg = 236
         hi PreProc ctermfg = White
     endif
 elseif has("unix")
-	colorscheme molokai
+	if dein#check_install(["molokai"]) == 0
+		colorscheme molokai
+	endif
 	augroup vim-colorscheme
 		autocmd!
 		autocmd ColorScheme * hi Comment ctermfg=46 guifg=#00FF00

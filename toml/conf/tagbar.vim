@@ -1,8 +1,8 @@
+"----------------------------------------------------------------------------
 "
 " tagbar
 "
-" https://github.com/majutsushi/tagbar
-"
+" echo "load tagbar configration file."
 
 " ソートのキーバインディングを無効
 let g:tagbar_map_togglesort = ""

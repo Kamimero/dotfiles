@@ -1,5 +1,8 @@
+"----------------------------------------------------------------------------
 "
-" .vimrc
+" vim-quickrun
+"
+" echo "Load .vimrc configration file."
 "
 
 if !&compatible
@@ -11,10 +14,13 @@ augroup MyAutoCmd
     autocmd!
 augroup END
 
-" プラグイン管理はdeinを使用する
+let mapleader = 't'
+
+" プラグイン
 if filereadable(expand('~/dotfiles/.vimrc.dein.vim'))
     source ~/dotfiles/.vimrc.dein.vim
 endif
+
 " 環境変数
 if filereadable(expand('~/dotfiles/.vimrc.env.vim'))
 	source ~/dotfiles/.vimrc.env.vim
@@ -23,17 +29,14 @@ endif
 if filereadable(expand('~/dotfiles/.vimrc.basic.vim'))
     source ~/dotfiles/.vimrc.basic.vim
 endif
-" Vimプラグインの設定
-if filereadable(expand('~/dotfiles/.vimrc.plugins.vim'))
-    source ~/dotfiles/.vimrc.plugins.vim
-endif
-" Vimプラグイン以外のコマンド
-if filereadable(expand('~/dotfiles/.vimrc.commands.vim'))
-	source ~/dotfiles/.vimrc.commands.vim
-endif
 " キー関連設定
 if filereadable(expand('~/dotfiles/.vimrc.keys.vim'))
     source ~/dotfiles/.vimrc.keys.vim
+endif
+
+" Vimプラグイン以外のコマンド
+if filereadable(expand('~/dotfiles/.vimrc.commands.vim'))
+	source ~/dotfiles/.vimrc.commands.vim
 endif
 " カラースキーマ関連
 if filereadable(expand('~/dotfiles/.vimrc.colorscheme.vim'))
@@ -49,5 +52,6 @@ elseif has('win32')
     autocmd BufWrite *.{txt,TXT} set fileencoding=cp932 | set fileformat=dos
     autocmd BufWrite *.{c,h,cpp} set fileencoding=cp932 | set fileformat=dos
 endif
+
 
 syntax enable

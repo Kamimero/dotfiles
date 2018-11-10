@@ -1,8 +1,9 @@
+"----------------------------------------------------------------------------
 "
 " vim-quickrun
 "
-" https://github.com/thinca/vim-quickrun
-"
+" see: https://github.com/thinca/vim-quickrun
+" echo "load vim-quickrun configration file."
 
 let g:quickrun_no_default_key_mappings = 1
 let g:quickrun_config = get(g:, 'quickrun_config', {})

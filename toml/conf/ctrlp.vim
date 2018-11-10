@@ -1,3 +1,8 @@
+"----------------------------------------------------------------------------
+"
+" ctrlp-funky
+"
+" echo "load ctrlp configration file."
 
 let g:ctrlp_root_markers = ['.ctrlp']
 

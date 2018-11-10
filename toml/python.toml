@@ -1,0 +1,11 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+[[plugins]]
+repo = "davidhalter/jedi-vim"
+on_ft = "python"
+rev = "0.9.0"
+hook_add = """
+	source ~/dotfiles/toml/conf/jedi-vim.vim
+"""

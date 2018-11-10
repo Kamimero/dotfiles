@@ -1,0 +1,11 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-markdown.vim
+"""
+

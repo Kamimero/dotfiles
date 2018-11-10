@@ -1,0 +1,11 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+hook_add = """
+source ~/dotfiles/toml/conf/neocomplete.vim
+"""
+

@@ -1,8 +1,10 @@
+"----------------------------------------------------------------------------
 "
 " vim-clang-format
 "
-" https://github.com/rhysd/vim-clang-format
-"
+" echo "load vim-clang-format configration file."
+
+autocmd FileType c,cpp,objc map <buffer><Leader>f <Plug>(operator-clang-format)
 
 " Link: http://algo13.net/clang/clang-format-style-oputions.html
 " AccessModifierOffset                           ? アクセス修飾子(public: protected: private:)のインデント
@@ -44,6 +46,7 @@
 " DerivePointerAlignment                         ? true の場合、 * や & の位置を自動判定。
 
 let g:clang_format#code_style = "llvm"
+
 " フォーマット設定
 let g:clang_format#style_options = {
     \ "AccessModifierOffset"                            : -4,
@@ -88,5 +91,4 @@ let g:clang_format#style_options = {
     \ "PointerAlignment"                                : "Right",
     \}
 
-autocmd FileType c,cpp,objc map <buffer><Leader>f <Plug>(operator-clang-format)
 

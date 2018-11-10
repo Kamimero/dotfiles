@@ -1,0 +1,92 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+
+[[plugins]]
+repo = "tyru/caw.vim"
+hook_add = """
+	source ~/dotfiles/toml/conf/caw.vim
+"""
+
+[[plugins]]
+repo = "t9md/vim-quickhl"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-quickhl.vim
+"""
+
+[[plugins]]
+repo = "tpope/vim-surround"
+
+[[plugins]]
+repo = "junegunn/vim-easy-align"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-easy-align.vim
+"""
+
+[[plugins]]
+repo = "fuenor/qfixgrep"
+hook_add = """
+	source ~/dotfiles/toml/conf/qfixgrep.vim
+"""
+
+[[plugins]]
+repo = "rr-/vim-hexdec"
+
+[[plugins]]
+repo = "itchyny/vim-parenmatch"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-parenmatch.vim
+"""
+
+[[plugins]]
+repo = "itchyny/vim-cursorword"
+
+[[plugins]]
+repo = "terryma/vim-multiple-cursors"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-multiple-cursors.vim
+"""
+
+[[plugins]]
+repo = "cohama/lexima.vim"
+hook_add = """
+	source ~/dotfiles/toml/conf/lexima.vim
+"""
+
+[[plugins]]
+repo = "majutsushi/tagbar"
+hook_add = """
+	source ~/dotfiles/toml/conf/tagbar.vim
+"""
+
+[[plugins]]
+repo = "tacahiroy/ctrlp-funky"
+
+[[plugins]]
+repo = "thinca/vim-quickrun"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-quickrun.vim
+"""
+
+[[plugins]]
+repo = "osyo-manga/shabadou.vim"
+
+[[plugins]]
+repo = "tpope/vim-fugitive"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-fugitive.vim
+"""
+
+[[plugins]]
+repo = "vim-scripts/DoxygenToolkit.vim"
+hook_add = """
+	source ~/dotfiles/toml/conf/DoxygenToolkit.vim
+"""
+
+[[plugins]]
+repo = 'Kamimero/vim-trailing-whitespace'
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-trailing-whitespace.vim
+"""
+

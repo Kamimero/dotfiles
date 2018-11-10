@@ -1,8 +1,8 @@
+"----------------------------------------------------------------------------
 "
 " vim-parenmatch
 "
-" https://github.com/itchyny/vim-parenmatch/blob/master/doc/parenmatch.txt
-"
+" echo "load vim-parenmatch configration file."
 
 " Vimの括弧表示を無効にする
 let g:loaded_matchparen = 1

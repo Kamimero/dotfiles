@@ -23,24 +23,21 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.vimfiler.vim'))
     source ~/dotfiles/plugins/.vimfiler.vim
 endif
-if filereadable(expand('~/dotfiles/plugins/.neocomplete.vim'))
+silent! if dein#check_install(["neocomplete.vim"]) == 0
     source ~/dotfiles/plugins/.neocomplete.vim
 endif
 if filereadable(expand('~/dotfiles/plugins/.clang_complete.vim'))
     source ~/dotfiles/plugins/.clang_complete.vim
 endif
-if filereadable(expand('~/dotfiles/plugins/.ctrlp.vim'))
-    source ~/dotfiles/plugins/.ctrlp.vim
-endif
+" if filereadable(expand('~/dotfiles/plugins/.ctrlp.vim'))
+"     source ~/dotfiles/plugins/.ctrlp.vim
+" endif
 if filereadable(expand('~/dotfiles/plugins/.vim-markdown.vim'))
     source ~/dotfiles/plugins/.vim-markdown.vim
 endif
-if filereadable(expand('~/dotfiles/plugins/.nerdtree.vim'))
-    source ~/dotfiles/plugins/.nerdtree.vim
-endif
-if filereadable(expand('~/dotfiles/plugins/.jedi-vim.vim'))
-    source ~/dotfiles/plugins/.jedi-vim.vim
-endif
+" if filereadable(expand('~/dotfiles/plugins/.jedi-vim.vim'))
+"     source ~/dotfiles/plugins/.jedi-vim.vim
+" endif
 if filereadable(expand('~/dotfiles/plugins/.qfixgrep.vim'))
     source ~/dotfiles/plugins/.qfixgrep.vim
 endif
@@ -74,6 +71,6 @@ endif
 if filereadable(expand('~/dotfiles/plugins/.open-browser.vim'))
 	source ~/dotfiles/plugins/.open-browser.vim
 endif
-if filereadable(expand('~/dotfiles/plugins/.lexima.vim'))
+silent! if dein#check_install(["lexima.vim"]) == 0
 	source ~/dotfiles/plugins/.lexima.vim
 endif

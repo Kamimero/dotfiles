@@ -1,0 +1,49 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+[[plugins]]
+repo = "Shougo/dein.vim"
+
+[[plugins]]
+repo = "Shougo/unite.vim"
+
+[[plugins]]
+repo = "Shougo/vimshell.vim"
+
+[[plugins]]
+repo = "Shougo/vimproc.vim"
+
+[[plugins]]
+repo = "scrooloose/nerdtree"
+hook_add = """
+	source ~/dotfiles/toml/conf/nerdtree.vim
+"""
+
+[[plugins]]
+repo = "simeji/winresizer"
+hook_add = """
+	source ~/dotfiles/toml/conf/winresizer.vim
+"""
+
+[[plugins]]
+repo = "itchyny/lightline.vim"
+hook_add = """
+	source ~/dotfiles/toml/conf/winresizer.vim
+"""
+
+[[plugins]]
+repo = "tomasr/molokai"
+
+[[plugins]]
+repo = "easymotion/vim-easymotion"
+hook_add = """
+	source ~/dotfiles/toml/conf/vim-easymotion.vim
+"""
+
+[[plugins]]
+repo = "ctrlpvim/ctrlp.vim"
+hook_add = """
+	source ~/dotfiles/toml/conf/ctrlp.vim
+"""
+

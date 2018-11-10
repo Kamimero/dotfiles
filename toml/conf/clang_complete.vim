@@ -1,12 +1,13 @@
+"----------------------------------------------------------------------------
 "
 " clang_complete
 "
-" https://github.com/Rip-Rip/clang_complete
-"
+" echo "load clang_complete configration file."
 
-" キーバインド無効（keys.vimに集約）
-let g:clang_jumpto_declaration_key = ""
+let g:clang_jumpto_declaration_key = "<Leader>d"
+
 let g:clang_jumpto_declaration_in_preview_key = ""
+
 " デバッグレベル
 let g:clang_debug = 0
 " 自動補完無効

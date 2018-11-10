@@ -2,27 +2,28 @@
 # プラグイン管理
 #
 
-[[plugins]]
-repo = 'Shougo/dein.vim'
-[[plugins]]
-repo = 'Shougo/vimproc.vim'
-[[plugins]]
-repo = 'Shougo/vimshell.vim'
-[[plugins]]
-repo = 'Shougo/unite.vim'
+# [[plugins]]
+# repo = 'Shougo/dein.vim'
+# [[plugins]]
+# repo = 'Shougo/vimproc.vim'
+# [[plugins]]
+# repo = 'Shougo/vimshell.vim'
+# [[plugins]]
+# repo = 'Shougo/unite.vim'
 
-[[plugins]]
-repo = 'Shougo/vimfiler.vim'
-[[plugins]]
-repo = 'scrooloose/nerdtree'
+	# [[plugins]]
+	# repo = 'Shougo/vimfiler.vim'
 
-[[plugins]]
-repo = 'ctrlpvim/ctrlp.vim'
+# [[plugins]]
+# repo = 'scrooloose/nerdtree'
 
-[[plugins]]
-repo = 'simeji/winresizer'
-[[plugins]]
-repo = 'itchyny/lightline.vim'
+# [[plugins]]
+# repo = 'ctrlpvim/ctrlp.vim'
+
+# [[plugins]]
+# repo = 'simeji/winresizer'
+# [[plugins]]
+# repo = 'itchyny/lightline.vim'
 
 [[plugins]]
 repo = 'Shougo/unite-outline'
@@ -32,8 +33,8 @@ repo = 'tsukkee/unite-tag'
 #
 # 入力補完関連
 #
-[[plugins]]
-repo = 'Shougo/neocomplete.vim'
+# [[plugins]]
+# repo = 'Shougo/neocomplete.vim'
 [[plugins]]
 repo = 'Shougo/neosnippet'
 [[plugins]]
@@ -46,49 +47,49 @@ repo = 'mattn/sonictemplate-vim'
 #
 # カラースキーマ関連
 #
-[[plugins]]
-repo = 'ujihisa/unite-colorscheme'
-[[plugins]]
-repo = 'tomasr/molokai'
-[[plugins]]
-repo = 'marcopaganini/mojave-vim-theme'
-[[plugins]]
-repo = 'itchyny/landscape.vim'
-[[plugins]]
-repo = 'jnurmine/Zenburn'
+	# [[plugins]]
+	# repo = 'ujihisa/unite-colorscheme'
+# [[plugins]]
+# repo = 'tomasr/molokai'
+	# [[plugins]]
+	# repo = 'marcopaganini/mojave-vim-theme'
+	# [[plugins]]
+	# repo = 'itchyny/landscape.vim'
+	# [[plugins]]
+	# repo = 'jnurmine/Zenburn'
 
 
-[[plugins]]
-repo = 'thinca/vim-quickrun'
-[[plugins]]
-repo = 'osyo-manga/shabadou.vim'
+# [[plugins]]
+# repo = 'thinca/vim-quickrun'
+# [[plugins]]
+# repo = 'osyo-manga/shabadou.vim'
 
 #
 # C/CPP言語関連
 #
-[[plugins]]
-repo = 'majutsushi/tagbar'
-[[plugins]]
-repo = 'Shougo/neoinclude.vim'
-[[plugins]]
-repo = 'rhysd/vim-clang-format'
-[[plugins]]
-repo = 'Rip-Rip/clang_complete'
-[[plugins]]
-repo = 'vim-syntastic/syntastic'
-[[plugins]]
-repo = 'derekwyatt/vim-fswitch'
-[[plugins]]
-repo = 'tacahiroy/ctrlp-funky'
+# [[plugins]]
+# repo = 'majutsushi/tagbar'
+	# [[plugins]]
+	# repo = 'Shougo/neoinclude.vim'
+# [[plugins]]
+# repo = 'rhysd/vim-clang-format'
+# [[plugins]]
+# repo = 'Rip-Rip/clang_complete'
+# [[plugins]]
+# repo = 'vim-syntastic/syntastic'
+	# [[plugins]]
+	# repo = 'derekwyatt/vim-fswitch'
+# [[plugins]]
+# repo = 'tacahiroy/ctrlp-funky'
 [[plugins]]
 repo = 'tyru/current-func-info.vim'
 
 #
 # Python言語関連
 #
-[[plugins]]
-repo = 'davidhalter/jedi-vim'
-on_ft = "python"
+# [[plugins]]
+# repo = 'davidhalter/jedi-vim'
+# on_ft = "python"
 [[plugins]]
 repo = 'nvie/vim-flake8'
 [[plugins]]
@@ -103,23 +104,23 @@ repo = 'z0mbix/vim-shfmt'
 #
 # Git
 #
-[[plugins]]
-repo = 'tpope/vim-fugitive'
+# [[plugins]]
+# repo = 'tpope/vim-fugitive'
 
 # MarkDown -------------------------------------
 
-[[plugins]]
-repo = 'plasticboy/vim-markdown'
+# [[plugins]]
+# repo = 'plasticboy/vim-markdown'
 
 # PowerShell -----------------------------------
 
-[[plugins]]
-repo = 'PProvost/vim-ps1'
+# [[plugins]]
+# repo = 'PProvost/vim-ps1'
 
 # Grep -----------------------------------------
 
-[[plugins]]
-repo = 'fuenor/qfixgrep'
+# [[plugins]]
+# repo = 'fuenor/qfixgrep'
 
 # その他 ---------------------------------------
 
@@ -127,49 +128,53 @@ repo = 'fuenor/qfixgrep'
 # [[plugins]]
 # repo = 'vim-scripts/Align'
 
-[[plugins]]
-repo = 'junegunn/vim-easy-align'
+# [[plugins]]
+# repo = 'junegunn/vim-easy-align'
 
-[[plugins]]
-repo = 'terryma/vim-multiple-cursors'
+# [[plugins]]
+# repo = 'terryma/vim-multiple-cursors'
 
-[[plugins]]
-repo = 'rr-/vim-hexdec'
+# [[plugins]]
+# repo = 'rr-/vim-hexdec'
 
-[[plugins]]
-repo = 'bronson/vim-trailing-whitespace'
+# [[plugins]]
+# repo = 'bronson/vim-trailing-whitespace'
 
-[[plugins]]
-repo = 'tyru/caw.vim'
+# [[plugins]]
+# repo = 'tyru/caw.vim'
 
-[[plugins]]
-repo = 't9md/vim-quickhl'
+# [[plugins]]
+# repo = 't9md/vim-quickhl'
 
-[[plugins]]
-repo = 'vim-scripts/DrawIt'
+	# [[plugins]]
+	# repo = 'vim-scripts/DrawIt'
 
-[[plugins]]
-repo = 'itchyny/vim-parenmatch'
+# [[plugins]]
+# repo = 'itchyny/vim-parenmatch'
 
-[[plugins]]
-repo = 'cohama/lexima.vim'
+# [[plugins]]
+# repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'xolox/vim-misc'
 
-[[plugins]]
-repo = 'kana/vim-operator-user'
-[[plugins]]
-repo = 'tyru/open-browser.vim'
-[[plugins]]
-repo = 'easymotion/vim-easymotion'
-[[plugins]]
-repo = 'tpope/vim-surround'
+	# [[plugins]]
+	# repo = 'kana/vim-operator-user'
+
+	# [[plugins]]
+	# repo = 'tyru/open-browser.vim'
+
+# [[plugins]]
+# repo = 'easymotion/vim-easymotion'
+
+# [[plugins]]
+# repo = 'tpope/vim-surround'
+
 [[plugins]]
 repo = 'sukima/xmledit'
 
 # Doxygen
-[[plugins]]
-repo = 'vim-scripts/DoxygenToolkit.vim'
+# [[plugins]]
+# repo = 'vim-scripts/DoxygenToolkit.vim'
 
 

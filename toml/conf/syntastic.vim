@@ -3,7 +3,7 @@
 " syntastic
 "
 " see: https://github.com/vim-syntastic/syntastic
-" echo "load syntastic configration file."
+echo "load syntastic configration file."
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -33,3 +33,7 @@ let g:syntastic_c_config_file='.clang_complete'
 " Bash
 "
 let g:syntastic_sh_shellcheck_args = "-e SC2068,SC2086"
+
+"----------------------------------------------------------------------------
+" Python
+let g:syntastic_python_checkers = ["flake8"]

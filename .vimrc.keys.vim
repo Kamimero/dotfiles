@@ -41,6 +41,8 @@ nnoremap <silent> sw :w<CR>
 if has('unix')
 vnoremap sy :w !cat > /dev/clipboard<CR><CR>
 endif
+" nmap     <silent> sf <Plug>(easymotion-overwin-f2)
+nmap     <silent> sf <Plug>(easymotion-overwin-f2)
 
 "----------------------------------------------------------------------------
 " Leader key.

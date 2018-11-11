@@ -1,8 +1,9 @@
+"----------------------------------------------------------------------------
 "
 " neosnippet
 "
-" https://github.com/Shougo/neosnippet.vim
-"
+" see: https://github.com/Shougo/neosnippet.vim
+" echom "load nerdtree configration file."
 
 " キーコンフィグはkeysに統一.
 " imap <C-k> <Plug>(neosnippet_expand_or_jump)

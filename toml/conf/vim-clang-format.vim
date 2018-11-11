@@ -50,7 +50,7 @@ let g:clang_format#code_style = "llvm"
 " フォーマット設定
 let g:clang_format#style_options = {
     \ "AccessModifierOffset"                            : -4,
-    \ "AlignConsecutiveAssignments"                     : "true",
+    \ "AlignConsecutiveAssignments"                     : "false",
     \ "AlignConsecutiveDeclarations"                    : "true",
     \ "AlignEscapedNewlinesLeft"                        : "true",
     \ "AlignOperands"                                   : "true",

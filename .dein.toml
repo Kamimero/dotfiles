@@ -35,10 +35,10 @@ repo = 'tsukkee/unite-tag'
 #
 # [[plugins]]
 # repo = 'Shougo/neocomplete.vim'
-[[plugins]]
-repo = 'Shougo/neosnippet'
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
+# [[plugins]]
+# repo = 'Shougo/neosnippet'
+# [[plugins]]
+# repo = 'Shougo/neosnippet-snippets'
 [[plugins]]
 repo = 'honza/vim-snippets'
 [[plugins]]

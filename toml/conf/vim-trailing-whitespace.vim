@@ -10,6 +10,7 @@ let g:trailing_whitespace_guibg = "DarkMagenta"
 let g:extra_whitespace_ignored_filetypes = [
 	\ "markdown","mkd",
 	\ "quickfix","qf",
+	\ "help",
 	\ "unite",
 	\ "vimshell"
 	\ ]

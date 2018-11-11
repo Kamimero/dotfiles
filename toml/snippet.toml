@@ -3,6 +3,9 @@
 # プラグイン管理
 #
 [[plugins]]
-repo = 'Shougo/neosnippet'
+repo = "Shougo/neosnippet"
+hook_add = """
+	source ~/dotfiles/toml/conf/neosnippet.vim
+"""
 [[plugins]]
-repo = 'Shougo/neosnippet-snippets'
+repo = "Shougo/neosnippet-snippets"

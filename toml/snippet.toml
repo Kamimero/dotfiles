@@ -1,0 +1,8 @@
+#----------------------------------------------------------------------------
+#
+# プラグイン管理
+#
+[[plugins]]
+repo = 'Shougo/neosnippet'
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'

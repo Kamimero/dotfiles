@@ -6,19 +6,21 @@
 " echo "load jedi-vim configration file."
 
 " see: https://github.com/davidhalter/jedi-vim/issues/870
-py3 import os; import sys; sys.executable=os.path.join(sys.prefix, 'python.exe')
+if has("win64") || has("win32")
+	py3 import os; import sys; sys.executable=os.path.join(sys.prefix, 'python.exe')
+endif
 
 let g:jedi#auto_initialization = 1
 
 " let g:jedi#auto_vim_configuration = 0
 
-" .Œã‚É©“®‚ÅPOPUP•\¦‚·‚éE‚µ‚È‚¢
+" .å¾Œã«è‡ªå‹•ã§POPUPè¡¨ç¤ºã™ã‚‹ãƒ»ã—ãªã„
 let g:jedi#popup_on_dot = 0
 
-" ƒ|ƒbƒvƒAƒbƒv•\¦‚Åæ“ª‚ğƒZƒŒƒNƒg‚·‚éE‚µ‚È‚¢
+" ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—è¡¨ç¤ºã§å…ˆé ­ã‚’ã‚»ãƒ¬ã‚¯ãƒˆã™ã‚‹ãƒ»ã—ãªã„
 let g:jedi#popup_select_first = 0
 
-" ƒhƒLƒ…ƒƒ“ƒg‚ğ©“®‚Å•Â‚¶‚é
+" ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã‚’è‡ªå‹•ã§é–‰ã˜ã‚‹
 let g:jedi#auto_close_doc = 1
 
 " Jedi displays function call signatures in insert mode in real-time, highlighting the current argument. 
@@ -29,7 +31,7 @@ let g:jedi#show_call_signatures = "1"
 
 " let g:jedi#show_call_signatures_delay = 500
 
-" ’è‹`‚ğƒ^ƒu•\¦
+" å®šç¾©ã‚’ã‚¿ãƒ–è¡¨ç¤º
 let g:jedi#use_tabs_not_buffers = 1
 
 " let g:jedi#squelch_py_warning = 0
@@ -38,7 +40,7 @@ let g:jedi#use_tabs_not_buffers = 1
 
 " let g:jedi#use_splits_not_buffers = "left"
 
-" Pythonƒo[ƒWƒ‡ƒ“
+" Pythonãƒãƒ¼ã‚¸ãƒ§ãƒ³
 let g:jedi#force_py_version = "auto"
 
 " let g:jedi#smart_auto_mappings = 1
@@ -47,10 +49,10 @@ let g:jedi#force_py_version = "auto"
 
 
 
-" ’è‹`Œ³‚ÉˆÚ“®
+" å®šç¾©å…ƒã«ç§»å‹•
 let g:jedi#goto_command = "<leader>d"
 
-" •Ï”‚È‚Ç‚ÌŠ„‚è“–‚ÄŒ³‚ÉˆÚ“®
+" å¤‰æ•°ãªã©ã®å‰²ã‚Šå½“ã¦å…ƒã«ç§»å‹•
 let g:jedi#goto_assignments_command = "<leader>g"
 
 " let g:jedi#goto_definitions_command = ""
@@ -61,6 +63,6 @@ let g:jedi#usages_command = "<leader>n"
 
 let g:jedi#completions_command = "<C-Space>"
 
-" ƒŠƒl[ƒ€
+" ãƒªãƒãƒ¼ãƒ 
 let g:jedi#rename_command = "<leader>r"
 

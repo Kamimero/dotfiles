@@ -29,5 +29,6 @@ set guioptions-=r
 set guioptions-=R
 set guioptions-=l
 set guioptions-=L
+
 " カラースキーマの設定
 source ~/dotfiles/.vimrc.colorscheme.vim

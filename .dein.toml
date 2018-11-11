@@ -90,10 +90,10 @@ repo = 'tyru/current-func-info.vim'
 # [[plugins]]
 # repo = 'davidhalter/jedi-vim'
 # on_ft = "python"
-[[plugins]]
-repo = 'nvie/vim-flake8'
-[[plugins]]
-repo = 'andviro/flake8-vim'
+	# [[plugins]]
+	# repo = 'nvie/vim-flake8'
+	# [[plugins]]
+	# repo = 'andviro/flake8-vim'
 
 #
 # ShellScript

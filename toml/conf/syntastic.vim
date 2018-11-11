@@ -3,7 +3,7 @@
 " syntastic
 "
 " see: https://github.com/vim-syntastic/syntastic
-echo "load syntastic configration file."
+" echo "load syntastic configration file."
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
